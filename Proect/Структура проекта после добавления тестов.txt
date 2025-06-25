@@ -1,0 +1,15 @@
+excel_price_processor/
+│
+├── main.py                  # Точка входа
+├── backup_utils.py          # Резервное копирование
+├── file_utils.py            # Выбор файла
+├── excel_utils.py           # Базовая работа с Excel
+├── formatting.py            # Форматирование
+├── data_processing.py       # Преобразование данных
+├── pricing.py               # Расчёт цен
+├── part_info_processor.py   # Обработка "Part Info"
+├── price_data_handler.py    # Импорт данных о ценах
+├── config.py                # Константы
+└── tests/
+    ├── __init__.py
+    └── test_core_functions.py  # Юнит-тесты
